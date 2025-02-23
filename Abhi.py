@@ -7,7 +7,7 @@ import urllib.request as urllib
 from Config import API_ID, API_HASH, TOKEN
 
 
-updater = Updater(TOKEN, workers=WORKERS, use_context=True)
+updater = Updater(TOKEN, use_context=True)
 telethn = TelegramClient("Abhi", API_ID, API_HASH)
 
 Bot = Client("CoupleBot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN,in_memory=True)
