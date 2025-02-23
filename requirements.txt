@@ -1,0 +1,6 @@
+aiohttp==3.9.5
+asyncio==3.4.3
+pymongo==4.9.2
+pyrogram==2.0.106
+telethon==1.36.0
+python-telegram-bot==13.15
