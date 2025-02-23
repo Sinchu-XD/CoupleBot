@@ -3,7 +3,7 @@ from aiohttp import ClientSession
 from pyrogram import Client
 from telethon import TelegramClient
 
-
+from Config import API_ID, API_HASH, TOKEN
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
