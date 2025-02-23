@@ -18,3 +18,6 @@ print("[INFO]: Getting Bot Info...")
 BOT_ID = dispatcher.bot.id
 BOT_NAME = dispatcher.bot.first_name
 BOT_USERNAME = dispatcher.bot.username
+
+telethn.start(bot_token=TOKEN)
+Abhi.start()
